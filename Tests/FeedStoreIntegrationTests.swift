@@ -6,7 +6,6 @@ import XCTest
 import FeedStoreChallenge
 
 class FeedStoreIntegrationTests: XCTestCase {
-
 	override func setUpWithError() throws {
 		try super.setUpWithError()
 
