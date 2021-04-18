@@ -6,7 +6,6 @@ import XCTest
 import FeedStoreChallenge
 
 class FeedStoreChallengeTests: XCTestCase, FailableFeedStoreSpecs {
-
 	func test_retrieve_deliversEmptyOnEmptyCache() throws {
 		let sut = try makeSUT()
 
