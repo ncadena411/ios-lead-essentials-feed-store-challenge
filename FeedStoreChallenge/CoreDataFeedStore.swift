@@ -64,7 +64,7 @@ public final class CoreDataFeedStore: FeedStore {
 				if let managedCache = try ManagedCache.findCache(in: context) {
 					context.delete(managedCache)
 				}
-				
+
 				try context.save()
 				completion(nil)
 
